@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Registro Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<ion-list>
+
+  <ion-item>
+    <ion-label fixed>Nombre</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Apellido</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Email</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Genero</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Contraseña</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label fixed>Confirma Contraseña</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Pregunta Secreta</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label fixed>Respuesta</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+</ion-list>
+<ion-grid>
+<ion-row>
+<ion-col>
+     <ion-button  expand="full" color="secondary" routerLink="/articulos">
+      Cancelar
+    </ion-button>
+
+</ion-col>
+<ion-col>
+    <ion-button  expand="full"   routerLink="/addcontactos">
+      Siguiente
+    </ion-button>
+</ion-col>
+</ion-row>
+</ion-grid>
+</ion-content>
